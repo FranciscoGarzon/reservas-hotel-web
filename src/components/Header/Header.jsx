@@ -1,5 +1,5 @@
+import logoHotel from '@assets/logo-hotel.png';
 import './Header.css';
-import logoHotel from '@assets/LogoHotel.png';
 
 const Header = () => {
   return (
