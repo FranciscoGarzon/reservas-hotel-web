@@ -1,9 +1,10 @@
-import { Header } from '@components';
+import { Header, Hero } from '@components';
 
 const Layout = () => {
   return (
     <div>
       <Header />
+      <Hero />
     </div>
   );
 };

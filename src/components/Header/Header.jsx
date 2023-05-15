@@ -1,4 +1,4 @@
-import logoHotel from '@assets/logo-hotel.png';
+import logoHotel from '@assets/images/logo-hotel.png';
 import './Header.css';
 
 const Header = () => {
@@ -15,8 +15,8 @@ const Header = () => {
         </menu>
 
         <div className='header__buttons'>
-          <button>Iniciar sesión</button>
-          <button>Crear cuenta</button>
+          <button className='header__button'>Iniciar sesión</button>
+          <button className='header__button'>Crear cuenta</button>
         </div>
       </nav>
     </div>

@@ -1,2 +1,21 @@
-.Hero {
+.hero__carousel {
+  display: flex;
+  width: 100%;
+}
+
+.hero__carousel-item {
+  display: none;
+}
+
+.hero__carousel-item--active {
+  display: block;
+  height: 400px;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.hero__carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
