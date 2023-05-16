@@ -1,3 +1,4 @@
+import chevronIcon from '@assets/icons/chevron.svg';
 import { useEffect, useState } from 'react';
 import './Hero.css';
 
@@ -62,9 +63,25 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className='hero__carousel-controls'>
-        <button onClick={handlePrevious}>Previous</button>
-        <button onClick={handleNext}>Next</button>
+      <div className='hero__controls'>
+        <button onClick={handlePrevious} className='hero__control'>
+          <img
+            src={chevronIcon}
+            alt='chevron icon'
+            className='hero__chevron-icon'
+          />
+        </button>
+
+        <button
+          onClick={handleNext}
+          className='hero__control hero__control--right'
+        >
+          <img
+            src={chevronIcon}
+            alt='chevron icon'
+            className='hero__chevron-icon'
+          />
+        </button>
       </div>
     </div>
   );
