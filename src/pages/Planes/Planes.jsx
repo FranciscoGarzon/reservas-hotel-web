@@ -1,5 +1,5 @@
 const Planes = () => {
-	return <div >Planes</div>;
+  return <div>Planes</div>;
 };
 
 export default Planes;
