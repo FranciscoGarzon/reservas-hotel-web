@@ -1,4 +1,4 @@
-.login {
+.signup {
   position: absolute;
   top: 0;
   right: 0;
@@ -12,6 +12,20 @@
   backdrop-filter: blur(1px) brightness(0.8);
 }
 
-.login__modal {
+.signup__modal {
   position: static;
+}
+
+.signup__form {
+  display: grid;
+  gap: 20px;
+}
+
+.signup__label {
+  display: grid;
+  gap: 4px;
+}
+
+.signup__button {
+  margin-top: 20px;
 }
