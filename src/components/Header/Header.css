@@ -9,6 +9,7 @@
 
 .header__logo {
   max-width: 60px;
+  user-select: none;
 }
 
 .header__navigation {

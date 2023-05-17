@@ -32,6 +32,7 @@
     rgb(0 0 0 / 24%) 0%,
     rgb(255 255 255 / 0%) 100%
   );
+  user-select: none;
   cursor: pointer;
 }
 
