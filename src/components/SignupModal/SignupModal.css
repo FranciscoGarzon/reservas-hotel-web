@@ -9,23 +9,27 @@
   width: 100%;
   height: 100vh;
   z-index: 10;
-  backdrop-filter: blur(1px) brightness(0.8);
+  backdrop-filter: blur(1px) brightness(0.6);
 }
 
 .signup__modal {
   position: static;
+  border: 2px solid #264653;
+  border-radius: 16px;
+  width: 320px;
+  box-shadow: 4px 6px #264653;
+  z-index: 10;
 }
 
 .signup__form {
+  padding: 24px 0;
+}
+
+.signup__form-group {
   display: grid;
   gap: 20px;
 }
 
-.signup__label {
-  display: grid;
-  gap: 4px;
-}
-
 .signup__button {
-  margin-top: 20px;
+  margin-top: 36px;
 }

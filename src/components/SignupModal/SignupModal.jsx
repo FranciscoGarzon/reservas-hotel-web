@@ -1,51 +1,65 @@
+import { useRef } from 'react';
 import './SignupModal.css';
 
 const SignupModal = ({ isOpened, setIsOpened }) => {
+  const signup = useRef(null);
+
   if (!isOpened) {
     return null;
   }
 
   const handleClick = (event) => {
-    event.preventDefault();
-    setIsOpened(!isOpened);
+    if (event.target === signup.current) {
+      setIsOpened(false);
+    }
   };
 
   return (
-    <div className='signup'>
+    <div className='signup' ref={signup} onClick={handleClick}>
       <dialog className='signup__modal' open={isOpened}>
+        <header>
+          <h3>Crea tu cuenta</h3>
+        </header>
+
         <form className='signup__form'>
-          <label className='signup__label'>
-            <span>Nombre</span>
-            <input className='signup__input' type='text' required />
-          </label>
+          <div className='signup__form-group'>
+            <input
+              className='signup__input'
+              type='text'
+              placeholder='Nombre'
+              required
+            />
+            <input
+              className='signup__input'
+              type='text'
+              placeholder='Apellido'
+              required
+            />
+            <input
+              className='signup__input'
+              type='email'
+              placeholder='Correo electrónico'
+              required
+            />
+            <input
+              className='signup__input'
+              type='tel'
+              placeholder='Teléfono'
+              required
+            />
+            <input
+              className='signup__input'
+              type='password'
+              placeholder='Contraseña'
+              required
+            />
+          </div>
 
-          <label className='signup__label'>
-            <span>Apellido</span>
-            <input className='signup__input' type='text' required />
-          </label>
-
-          <label className='signup__label'>
-            <span>Correo electrónico</span>
-            <input className='signup__input' type='email' required />
-          </label>
-
-          <label className='signup__label'>
-            <span>Teléfono</span>
-            <input className='signup__input' type='number' required />
-          </label>
-
-          <label className='signup__label'>
-            <span>Contraseña</span>
-            <input className='signup__input' type='password' required />
-          </label>
-
-          <button
-            className='signup__button'
-            type='submit'
-            onClick={handleClick}
-          >
-            Crear cuenta
-          </button>
+          <div>
+            <button className='signup__button' type='submit'>
+              Crear cuenta
+            </button>
+          </div>
         </form>
       </dialog>
     </div>
