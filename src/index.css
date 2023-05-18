@@ -4,3 +4,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Wix Madefor Display', sans-serif;
+}
+
+button {
+  font-family: inherit;
+  font-size: 14px;
+}
+
+input {
+  font: inherit;
+}

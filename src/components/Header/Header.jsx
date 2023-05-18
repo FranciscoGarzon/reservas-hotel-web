@@ -1,8 +1,13 @@
 import logoHotel from '@assets/images/logo-hotel.png';
+import { LoginModal, SignupModal } from '@components';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
+  const [isLoginOpened, setIsLoginOpened] = useState(false);
+  const [isSignupOpened, setIsSignupOpened] = useState(false);
+
   return (
     <div className='header'>
       <img src={logoHotel} alt='' className='header__logo' />
@@ -24,10 +29,24 @@ const Header = () => {
         </menu>
 
         <div className='header__buttons'>
-          <button className='header__button'>Iniciar sesión</button>
-          <button className='header__button'>Crear cuenta</button>
+          <button
+            className='header__button'
+            onClick={() => setIsLoginOpened(!isLoginOpened)}
+          >
+            Iniciar sesión
+          </button>
+
+          <button
+            className='header__button'
+            onClick={() => setIsSignupOpened(!isSignupOpened)}
+          >
+            Crear cuenta
+          </button>
         </div>
       </nav>
+
+      <LoginModal isOpened={isLoginOpened} setIsOpened={setIsLoginOpened} />
+      <SignupModal isOpened={isSignupOpened} setIsOpened={setIsSignupOpened} />
     </div>
   );
 };

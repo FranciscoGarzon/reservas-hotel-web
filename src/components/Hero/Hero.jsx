@@ -1,31 +1,26 @@
-import heroImage1 from '@assets/images/hero-1.jpg';
-import heroImage2 from '@assets/images/hero-2.jpg';
-import heroImage3 from '@assets/images/hero-3.jpg';
-import heroImage4 from '@assets/images/hero-4.jpg';
-import heroImage5 from '@assets/images/hero-5.jpg';
 import chevronIcon from '@assets/icons/chevron.svg';
 import { useEffect, useState } from 'react';
 import './Hero.css';
 
 const slides = [
   {
-    src: {heroImage1},
+    src: 'https://i.imgur.com/UYTAbEX.jpg',
     alt: 'Image 1'
   },
   {
-    src: {heroImage2},
+    src: 'https://i.imgur.com/lVL6USf.jpg',
     alt: 'Image 2'
   },
   {
-    src: {heroImage3},
+    src: 'https://i.imgur.com/fTtqKJl.jpg',
     alt: 'Image 3'
   },
   {
-    src: {heroImage4},
+    src: 'https://i.imgur.com/eD6IS3Y.jpg',
     alt: 'Image 4'
   },
   {
-    src: {heroImage5},
+    src: 'https://i.imgur.com/cAGfIb9.jpg',
     alt: 'Image 5'
   }
 ];
