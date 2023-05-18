@@ -17,16 +17,27 @@ const Header = () => {
       <nav className='header__navigation'>
         <menu className='header__menu'>
           <li className='header__item'>
-            <Link to='/'>Inicio</Link>
+            <Link to='/' className='header__link'>
+              Inicio
+            </Link>
           </li>
+
           <li className='header__item'>
-            <Link to='/planes'>Planes</Link>
+            <Link to='/planes' className='header__link'>
+              Planes
+            </Link>
           </li>
+
           <li className='header__item'>
-            <Link to='/servicios'>Servicios</Link>
+            <Link to='/servicios' className='header__link'>
+              Servicios
+            </Link>
           </li>
+
           <li className='header__item'>
-            <Link to='/habitaciones'>Habitaciones</Link>
+            <Link to='/habitaciones' className='header__link'>
+              Habitaciones
+            </Link>
           </li>
         </menu>
 
