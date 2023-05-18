@@ -9,9 +9,18 @@ body {
   font-family: 'Wix Madefor Display', sans-serif;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 button {
   font-family: inherit;
   font-size: 14px;
+}
+
+button:active {
+  opacity: 0.8;
 }
 
 input {

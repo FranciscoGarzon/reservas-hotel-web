@@ -10,7 +10,7 @@ const SignupModal = ({ isOpened, setIsOpened }) => {
 
   const handleClick = (event) => {
     if (event.target === signup.current) {
-      setIsOpened(false);
+      setIsOpened(!isOpened);
     }
   };
 
@@ -18,7 +18,7 @@ const SignupModal = ({ isOpened, setIsOpened }) => {
     <div className='signup' ref={signup} onClick={handleClick}>
       <dialog className='signup__modal' open={isOpened}>
         <header>
-          <h3>Crea tu cuenta</h3>
+          <h3 className='signup__title'>Crea tu cuenta</h3>
         </header>
 
         <form className='signup__form'>
@@ -55,7 +55,7 @@ const SignupModal = ({ isOpened, setIsOpened }) => {
             />
           </div>
 
-          <div>
+          <div className='signup__form-button'>
             <button className='signup__button' type='submit'>
               Crear cuenta
             </button>
