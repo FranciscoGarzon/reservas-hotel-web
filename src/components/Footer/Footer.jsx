@@ -7,6 +7,8 @@ import './Footer.css';
 const Footer = () => {
   return (
     <div className='footer'>
+      <div>Una experiencia GHL</div>
+      <div>Buenas razones para que reserve con nosotros</div>
       <div>HOTEL PARADISE</div>
       <div>Carrera 104A # 16 - 23</div>
       <div>Bogotá</div>
