@@ -14,11 +14,16 @@
 
 .signup__modal {
   position: static;
-  border: 2px solid #264653;
+  border: 2px solid #000;
   border-radius: 16px;
-  width: 320px;
-  box-shadow: 4px 6px #264653;
-  z-index: 10;
+  padding: 20px;
+  background-color: #2a9d8f;
+  width: 332px;
+  box-shadow: 4px 6px #000;
+}
+
+.signup__title {
+  color: #fff;
 }
 
 .signup__form {
@@ -30,6 +35,29 @@
   gap: 20px;
 }
 
-.signup__button {
+.signup__input {
+  background: none;
+  color: #fff;
+  border: 0;
+  border-bottom: 2px solid #264653;
+  padding: 8px;
+}
+
+.signup__input::placeholder {
+  color: #fff;
+}
+
+.signup__form-button {
   margin-top: 36px;
+}
+
+.signup__button {
+  border: 0;
+  border-radius: 9em;
+  padding: 10px 0;
+  background-color: #264653;
+  color: #fff;
+  width: 100%;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
 }

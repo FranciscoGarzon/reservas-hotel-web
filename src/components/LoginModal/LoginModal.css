@@ -14,4 +14,50 @@
 
 .login__modal {
   position: static;
+  border: 2px solid #000;
+  border-radius: 16px;
+  padding: 20px;
+  background-color: #2a9d8f;
+  width: 332px;
+  box-shadow: 4px 6px #000;
+}
+
+.login__title {
+  color: #fff;
+}
+
+.login__form {
+  padding: 24px 0;
+}
+
+.login__form-group {
+  display: grid;
+  gap: 20px;
+}
+
+.login__input {
+  background: none;
+  color: #fff;
+  border: 0;
+  border-bottom: 2px solid #264653;
+  padding: 8px;
+}
+
+.login__input::placeholder {
+  color: #fff;
+}
+
+.login__form-button {
+  margin-top: 36px;
+}
+
+.login__button {
+  border: 0;
+  border-radius: 9em;
+  padding: 10px 0;
+  background-color: #264653;
+  color: #fff;
+  width: 100%;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
 }
