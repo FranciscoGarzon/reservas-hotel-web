@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "mikehanson.auto-barrel",
+    "formulahendry.auto-rename-tag",
+    "dsznajder.es7-react-js-snippets",
+    "dbaeumer.vscode-eslint",
+    "mhutchie.git-graph",
+    "esbenp.prettier-vscode",
+    "javiergutierrez.create-component-react"
+  ]
+}
