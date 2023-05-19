@@ -3,7 +3,7 @@ const Habitaciones = () => {
     <div>
       <div>
         <h3>HABITACIÓN PRESIDENCIAL</h3>
-        <img src="" alt="" />
+        <img src='' alt='' />
         <p>
           Linda habitación de 217mts, cuenta con 3 habitaciones, una habitación
           principal con baño privado y jacuzzi, sala, comedor y una cocina.
@@ -12,7 +12,7 @@ const Habitaciones = () => {
       </div>
       <div>
         <h3>HABITACIÓN ESTANDAR SENCILLA</h3>
-        <img src="" alt="" />
+        <img src='' alt='' />
         <p>
           Las habitaciones estándar sencillas ofrecen un espacio acogedor para
           descansar en Bogotá muy cerca de zonas de interés cultural. Sus 26 m2
@@ -22,7 +22,7 @@ const Habitaciones = () => {
       </div>
       <div>
         <h3>HABITACIÓN ESTANDAR DOBLE</h3>
-        <img src="" alt="" />
+        <img src='' alt='' />
         <p>
           Las habitaciones estándar dobles son alojamientos creados para
           descansar en un ambiente íntimo, con capacidad máxima para dos
@@ -33,7 +33,7 @@ const Habitaciones = () => {
       </div>
       <div>
         <h3>HABITACIÓN ESTÁNDAR TWIN</h3>
-        <img src="" alt="" />
+        <img src='' alt='' />
         <p>
           Las habitaciones estándar twin están pensadas para garantizar un plus
           de espacio para viajes de negocios y vacaciones. Disponen de 28 m2 que
@@ -43,7 +43,7 @@ const Habitaciones = () => {
       </div>
       <div>
         <h3>HABITACIÓN MASTER KING</h3>
-        <img src="" alt="" />
+        <img src='' alt='' />
         <p>
           Las habitaciones master King son la elección ideal para disfrutar de
           unas vacaciones con todo lujo de detalles. Sus 35 m2 se visten de
@@ -53,7 +53,7 @@ const Habitaciones = () => {
       </div>
       <div>
         <h3>JUNIOR SUITE</h3>
-        <img src="" alt="" />
+        <img src='' alt='' />
         <p>
           Las junior suites son las habitaciones más exclusivas del alojamiento.
           En ellas podrá relajarse en dos ambientes diferentes que proporcionan
