@@ -1,0 +1,17 @@
+.habitaciones {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding: 48px 0;
+}
+
+.habitaciones__card {
+  border-radius: 16px;
+  border: 2px solid;
+  padding: 20px 24px;
+  background-color: #f4a261;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 8px rgb(0 0 0 / 20%);
+}
