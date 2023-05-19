@@ -6,14 +6,19 @@
   font-size: 20px;
 }
 
-.footer__social-media {
-  display: flex;
-  justify-content: center;
-  margin-top: 32px;
-}
-
 .footer__info {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+.footer__social-media {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.footer__social-image {
+  filter: drop-shadow(0 0 4px rgb(255 255 255 / 20%));
 }

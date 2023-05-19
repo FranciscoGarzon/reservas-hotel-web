@@ -21,6 +21,7 @@ const Footer = () => {
           <img
             src={facebookLogo}
             alt='facebook logo'
+            className='footer__social-image'
             aria-label='Know more in our facebook page'
           />
         </a>
@@ -28,6 +29,7 @@ const Footer = () => {
           <img
             src={twitterLogo}
             alt='twitter logo'
+            className='footer__social-image'
             aria-label='Know more in our twitter page'
           />
         </a>
@@ -35,6 +37,7 @@ const Footer = () => {
           <img
             src={youtubeLogo}
             alt='youtube logo'
+            className='footer__social-image'
             aria-label='Know more in our youtube channel'
           />
         </a>
@@ -42,6 +45,7 @@ const Footer = () => {
           <img
             src={instagramLogo}
             alt='instagram logo'
+            className='footer__social-image'
             aria-label='Know more in our instagram page'
           />
         </a>
