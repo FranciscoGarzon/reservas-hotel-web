@@ -34,11 +34,11 @@ const Header = () => {
             </Link>
           </li>
 
-          <li className='header__item'>
+          {/* <li className='header__item'>
             <Link to='/habitaciones' className='header__link'>
               Habitaciones
             </Link>
-          </li>
+          </li> */}
         </menu>
 
         <div className='header__buttons'>
